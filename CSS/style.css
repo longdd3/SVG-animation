@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   font-family: 'Varela Round', sans-serif;
+   margin: 0;
+   padding: 0;
+
+
+}
+h1,h2,h3 {
+    margin: 0;
+}
+
+a {
+   text-decoration: none;
+}
+img {
+   overflow: hidden;
+}
+ol, ul {
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+a:link {
+   color: #363636;
+}
+a:visited {
+   color: #363636;
+}
+
+/* This one for Top Nav CSS 
+Please Don't Do anything Stupid with my CSS
+It took alot of time to build and combine them in one. 
+
+Thanks 
+:)
+Have a greate Day
+
+*/
+.header-top {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #94a6c2;
+    
+}
+ 
+ 
+ 
+.LDavatar {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+     
+}
+.avatar-container {
+    background: #d4d9dd;
+    border-radius: 50%;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #edeff0;
+    border-color: #3e474f;
+    margin-left: 10px;
+}
+.longImage {
+    background: #3e474f;
+    border-color: #3e474f;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: #edeff0;
+    padding: 2px;
+
+}
+.pname {
+    text-align: center;
+}
+.pname {
+    font-size: 1.25em;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+.pname a {
+    font-size: 1.8em;
+    color: white;
+}
+ 
+.nav-show {
+   transition: 0.8 ease-out;
+
+}
+.nav-show a {
+    color: rgb(249, 252, 255);
+    font-size: 1em;
+    transition: box-shadow .3s;
+    margin: auto;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-weight: 500;
+    position: relative;
+    
+}
+.nav-show a::before {
+     
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+      
+}
+.nav-show li a:hover::before {
+    /* box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    color: #ffffff;
+    background: rgb(173, 175, 206);
+    transform: scale(1.13); */
+ 
+ 
+    visibility: visible;
+    transform: scaleX(1);
+ 
+}
+ 
+/* Footer  */
+.main-footer {
+    text-align: center;
+}
+.main-footer {
+	background: #d9e4ea;
+    padding: 2em 0;
+    margin-top: 30px;
+}
+.header-top {
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+  
+    z-index: 1231;
+   }
+.buttonshow {
+    display: none;
+    text-align: center;
+}
+ 
+/* end of footer.  */
+
+
+
+
+
+
+
+
+ /* clear all the item and space  */
+
+ .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
