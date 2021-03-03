@@ -1,0 +1,64 @@
+@media (max-width: 765px) {
+
+    /* for Top header  */
+    .nav-show a::before {
+        width: 20%;
+        bottom: 0;
+    left: auto;
+    }
+  
+    .brandlogo {
+        max-width: 100%;
+      
+    }
+    .logo {
+        width: 180px;
+    }
+    .colss {
+        display: none;
+    }
+    .main-nav li{
+        padding-top: 30px;
+    }
+     /* End !!!! for Top header  */
+
+}
+
+@media (min-width: 765px) {
+        /* for Top header  */
+    .nav-show {
+        display: block !important;
+    }
+
+    .avatar {
+        display: inline-block;
+        position: relative;
+    }
+    .LDavatar {
+        max-width: 1000px;
+    }
+    .top-nav {
+      
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1125px;
+        padding-top: 1em;
+    }
+    .footer-inner{
+        width: 100%;
+        margin: 0 auto;
+        }
+   .top-nav li{
+        display: inline-block;
+        margin-left: 30px;
+   }
+   .pname {
+       float:left;
+   }
+   
+   .nav-show {
+       float: right;
+   }
+       /* End !!!! for Top header  */
+       
+}
